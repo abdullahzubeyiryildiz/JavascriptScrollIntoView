@@ -1,4 +1,15 @@
 # Javascript ScrollIntoView Example
+
+<br> <br>
+#document.querySelector('.active').scrollIntoView({
+<br> <br>
+#behavior: 'smooth',   // Animasyonlu Scroll Yapması İçin
+<br> <br>
+#block: 'nearest', // Nearest En yakın Dikey hizalamayı tanımlar. Dikey Scroll etmesi için ('start','center','end','nearest') da mevcut
+<br> <br>
+inline : 'center' // Yatay hizalamayı tanımlar. ('start','center','end','nearest')
+<br> <br>
+});
  
 <!DOCTYPE html>
 <html lang="tr">
@@ -10,8 +21,7 @@
 	<!-- Bootstrap CSS -->
 
 	<title>Javascript Scroll View</title>
-	<!-- <link rel="stylesheet" href=""> -->
-
+  
 	<style>
 		* {
 			padding: 0;
